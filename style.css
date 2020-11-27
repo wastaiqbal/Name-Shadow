@@ -1,0 +1,38 @@
+ body{
+     padding: 0;
+     margin: 0;
+     background-color: #36393f;
+ }
+
+ .container{
+     height: 500px;
+     width: 500px;
+     position: absolute;
+     margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+ }
+
+ .shadow, .text{
+     font-size: 60px;
+     position: absolute;
+     font-family: 'Montserrat' , sans-serif;
+ }
+
+ .shadow{
+     color: rgb(100, 93, 77);
+     transform-origin: 0 0;
+     transform: rotate(-30deg) skew(30deg) scaleY(1.6);
+     top: 287px;
+     left: 57px;
+ }
+
+ .text{
+     color: orange;
+     transform-origin: 0 0;
+     transform: rotate(-30deg) skew(-30deg);
+     top: 275px;
+     left: 150px;
+ }
